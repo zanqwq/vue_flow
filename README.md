@@ -53,14 +53,14 @@
 
 ## 安装
 
-```
-npm install
+```bash
+$ npm install
 
 # 启动前端服务器
-npm run serve
+$ npm run serve
 
 # 启动后端服务器
-node ./server/index.js
+$ node ./server/index.js
 ```
 
 
