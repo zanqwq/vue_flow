@@ -18,7 +18,7 @@ module.exports = {
     return Flow.create(flow);
   },
 
-  async updateFlowById(id, data) {
+  updateFlowById(id, data) {
     return Flow.updateOne({ _id: id }, { $set: data }).exec();
   },
 
